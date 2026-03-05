@@ -2,7 +2,6 @@ const express = require('express');
 const axios = require('axios');
 const app = express();
 
-// ⚠️ GANTI DENGAN API KEY TRAKTEER KAMU
 const TRAKTEER_KEY = 'trapi-NLnWWAom6d7NLiUbBI2Y20mv';
 
 app.get('/top', async (req, res) => {
